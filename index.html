@@ -17,6 +17,17 @@
         transition: all ease-IN 0.4s;
       }
 
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      body::-webkit-scrollbar {
+        display: none;
+      }
+
+      /* Hide scrollbar for IE, Edge and Firefox */
+      body {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+      }
+
       body {
         font-family: "Amatic SC", sans-serif;
         font-size: 10rem;
@@ -73,7 +84,10 @@
         Get <br />
         Shit Done!
       </p>
-      <div class="center">Hello there,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;👋<br> I am <span class="element"></span></div>
+      <div class="center">
+        Hello there,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;👋<br />
+        I am <span class="element"></span>
+      </div>
       <p class="msg2">
         keep Calm <br />
         and <br />code!
